@@ -1,6 +1,9 @@
 import Counter from "@/Components/Counter";
 import React from "react";
-
+export const metadata = {
+  title: "Posts",
+  description: "this is description",
+};
 const PostPage = () => {
   return (
     <div>
